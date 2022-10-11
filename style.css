@@ -1,0 +1,38 @@
+.card1 {
+    box-shadow: 10px 10px 10px gray;
+    border-color: rgb(169, 223, 169);
+    border-width: 5px;
+    border-style: solid;
+    padding: 5px;
+    animation: show 0.2s;
+}
+
+.card2 {
+    box-shadow: 10px 10px 10px gray;
+    border-color: rgb(164, 220, 240);
+    border-width: 5px;
+    border-style: solid;
+    padding: 5px;
+    animation: show 1s;
+}
+
+@keyframes show {
+    from {
+        opacity: 0;
+    } to {
+        opacity: 1;
+    }
+}
+
+.green {
+    color: rgb(79, 180, 79);
+}
+
+.blue {
+    color: rgb(32, 152, 196);
+}
+
+a {
+    color: rgb(32, 152, 196);
+    text-decoration: none;
+}
